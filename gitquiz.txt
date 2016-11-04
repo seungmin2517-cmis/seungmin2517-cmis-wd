@@ -1,5 +1,6 @@
 1. Enter the classroom
 2. Turn on your computer and clone your repository by copying and pasting the code from your gmail into Terminal.
+	- Code: git clone --config="http.proxy=http://aaron2517:Seungmin7935@192.168.2.1:8080" https://github.com/seungmin2517-cmis/seungmin2517-cmis-wd.git
 3. Go into your file (cd name#-cmis-wd)
 4. Create a file named "file.txt" inside your file (gedit file.txt).
 5. Edit the file and Save it by clicking save botton.
