@@ -1,9 +1,9 @@
 1. Enter the classroom
-2. Turn on your computer and clone your repository.
+2. Turn on your computer and clone your repository by copying and pasting the code from your gmail into Terminal.
 3. Go into your file (cd name#-cmis-wd)
-4. Create a file named "file.txt" (gedit file.txt).
-5. Edit the file and Save it.
-6. Then using git add, commit, and push, save your file.
+4. Create a file named "file.txt" inside your file (gedit file.txt).
+5. Edit the file and Save it by clicking save botton.
+6. Then using (in order of) git add, commit, and push, save your file.
 	- git add filename
 	- git commit -m "Commit message"
 	- git push (type your Github username and password)
