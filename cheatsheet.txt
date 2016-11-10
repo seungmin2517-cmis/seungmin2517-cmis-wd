@@ -8,3 +8,8 @@ python -m SimpleHTTPServer - Start the development server
 git add <file name>
 git commit -m "Commit Comment"
 git push
+sftp seungmin2517@cmis-hsteacher
+cd public_html
+pwd
+!ls 
+put <file name>
