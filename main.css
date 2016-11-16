@@ -1,0 +1,28 @@
+html{
+font-family:Comic Sans MS;
+color:indigo; 
+background-color: salmon;
+border:solid 5px #feabab;
+border-top: thick dotted;
+border-right: thick dotted;
+border-left: thick dotted;
+border-radius: 25px;
+border-bottom: thick dotted #ff0000;
+border-bottom-left-radius: 2em;
+border-bottom-right-radius: 2em;
+font-size: 120%;
+}
+h1{
+color:royalblue;
+background-color: lightblue;
+border:solid 5px dodgerblue;
+text-decoration: underline;
+text-shadow: 3px 3px black;
+}
+h2{
+background-color: hotpink;
+border:solid 5px darkviolet;
+text-shadow: 3px 3px pink;
+}
+p{
+background-color:
