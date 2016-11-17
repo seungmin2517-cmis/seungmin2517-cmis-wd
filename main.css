@@ -1,28 +1,57 @@
 html{
-font-family:Comic Sans MS;
-color:indigo; 
-background-color: salmon;
-border:solid 5px #feabab;
-border-top: thick dotted;
-border-right: thick dotted;
-border-left: thick dotted;
-border-radius: 25px;
-border-bottom: thick dotted #ff0000;
-border-bottom-left-radius: 2em;
-border-bottom-right-radius: 2em;
-font-size: 120%;
-}
-h1{
-color:royalblue;
-background-color: lightblue;
-border:solid 5px dodgerblue;
-text-decoration: underline;
-text-shadow: 3px 3px black;
-}
-h2{
-background-color: hotpink;
-border:solid 5px darkviolet;
-text-shadow: 3px 3px pink;
-}
-p{
-background-color:
+	/*1*/font-family:Comic Sans MS;
+	/*2*/color:indigo; 
+	/*3*/background: #777 url(https://thechive.files.wordpress.com/2014/12/shiba-inus-are-weird-dogs-of-course-they-come-from-japan-21.jpg?quality=85&strip=info&w=600) repeat fixed center; 
+	/*4*/background-color: salmon;
+	/*5*/border:solid 5px #feabab;
+	border-top: thick dotted;
+	border-right: thick dotted;
+	border-left: thick dotted;
+	border-radius: 25px;
+	border-bottom: thick dotted #ff0000;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	/*6*/font-size: 120%;
+	/*7*/text-align: center;
+	/*8*/text-transform: capitalize;
+	}
+	h1{
+	color:royalblue;
+	background-color: lightblue;
+	border:5px dodgerblue;
+	/*9*/border-style: double;
+	/*10*/text-decoration: underline;
+	/*11*/text-shadow: 3px 3px black;
+	/*12*/box-shadow: 10px 10px 5px #888888;
+	/*13*/background: -webkit-linear-gradient(dodgerblue, lightblue); 
+	background: -o-linear-gradient(dodgerblue, lightblue); 
+	background: -moz-linear-gradient(dodgerblue, lightblue); 
+	background: linear-gradient(dodgerblue, lightblue);
+	border: 10px solid transparent;
+        padding: 15px;
+        -webkit-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
+        -o-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
+        border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round;
+	}
+	h2{
+	background-color: hotpink;
+	border:5px darkviolet;
+	border-style: dashed;
+	text-shadow: 3px 3px pink;
+	box-shadow: 7px 7px 3px violet;
+	background: -webkit-linear-gradient(left, red , yellow);
+	background: -o-linear-gradient(right, red, yellow);
+	background: -moz-linear-gradient(right, red, yellow);
+	background: linear-gradient(to right, red , yellow); 
+	}
+	p{
+	background-color: orange;
+	border:5px crimson;
+	border-style:groove;
+	box-shadow: 4px 4px 2.5px red;
+	border: 10px solid transparent;
+        padding: 15px;
+        -webkit-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
+        -o-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
+        border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round;
+	}
