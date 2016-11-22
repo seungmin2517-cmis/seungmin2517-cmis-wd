@@ -1,9 +1,30 @@
 html{
+	/*Young told me how to write comment*/
+	/*Another Young taught me how to insert background image*/	
+	/*
+*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font and text of each element.
+*Use at least 20 different properties. Include a list of these 20 at the TOP of your main.css file as a css comment.
+*Use at least 4 different units to set sizes of various aspects of your webpage.
+*Go learn something from 2 classmates; add a comment to your main.css file that describes what you learned.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into the top of your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+Upload to the production server with sftp.
+View your index.html in the production server.*/	
 	/*1*/font-family:Comic Sans MS;
 	/*2*/color:indigo; 
 	/*3*/background: #777 url(https://thechive.files.wordpress.com/2014/12/shiba-inus-are-weird-dogs-of-course-they-come-from-japan-21.jpg?quality=85&strip=info&w=600) repeat fixed center; 
 	/*4*/background-color: salmon;
 	/*5*/border:solid 5px #feabab;
+	/*17*/text-indent: 20px; 	
 	border-top: thick dotted;
 	border-right: thick dotted;
 	border-left: thick dotted;
@@ -21,7 +42,7 @@ html{
 	border:5px dodgerblue;
 	/*9*/border-style: double;
 	/*10*/text-decoration: underline;
-	/*11*/text-shadow: 3px 3px black;
+	/*11*/text-shadow: 0.05in 0.05in black;
 	/*12*/box-shadow: 10px 10px 5px #888888;
 	/*13*/background: -webkit-linear-gradient(dodgerblue, lightblue); 
 	background: -o-linear-gradient(dodgerblue, lightblue); 
@@ -29,7 +50,7 @@ html{
 	background: linear-gradient(dodgerblue, lightblue);
 	border: 10px solid transparent;
         padding: 15px;
-        -webkit-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
+        /*14*/-webkit-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
         -o-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
         border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round;
 	}
@@ -43,15 +64,22 @@ html{
 	background: -o-linear-gradient(right, red, yellow);
 	background: -moz-linear-gradient(right, red, yellow);
 	background: linear-gradient(to right, red , yellow); 
+	/*15*/-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
 	}
-	p{
+	p{		
 	background-color: orange;
 	border:5px crimson;
 	border-style:groove;
 	box-shadow: 4px 4px 2.5px red;
 	border: 10px solid transparent;
-        padding: 15px;
+	/*16*/padding: 15px;
+	/*18*/letter-spacing: 2px;
+	/*19*/margin: 2cm 4cm 3cm 4cm;
+	margin-left: 7cm;
+	/*20*/line-height: 180%;
         -webkit-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
         -o-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
         border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round;
 	}
+
