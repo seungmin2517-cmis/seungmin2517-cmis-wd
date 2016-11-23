@@ -1,0 +1,22 @@
+html{
+	font-family: arial;	
+	}
+	h1{
+	color: yellow;
+	background-color: green;
+	border-bottom: dashed; 
+	}
+	p{
+	color: blue;
+	background-color: red;
+	padding: 25px;
+	line-height: 200%;
+	}
+	h2{
+	color: yellow;
+	background-color: purple;
+	}
+	h3{
+	color: purple;
+	background-color: yellow;
+	border-top: dashed;
