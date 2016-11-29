@@ -33,7 +33,6 @@ View your index.html in the production server.*/
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	/*6*/font-size: 120%;
-	/*7*/text-align: center;
 	/*8*/text-transform: capitalize;
 	}
 	h1{
@@ -53,6 +52,7 @@ View your index.html in the production server.*/
         /*14*/-webkit-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
         -o-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
         border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round;
+	/*7*/text-align: center;
 	}
 	h2{
 	background-color: hotpink;
