@@ -1,0 +1,20 @@
+html{
+	background: #777 url(http://orig07.deviantart.net/46da/f/2013/220/8/f/gradient_rainbow_pebbles__1080p__by_7064n-d6h9w0k.jpg); 
+	}	
+	nav{
+	color:white;
+	background-color:dodgerblue;
+	padding: 0.5px;
+	border: solid 4px skyblue;
+	 -webkit-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
+        -o-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
+        border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round;
+	}	
+	a:link, a:visited{
+	color:white;
+	font-family:Comic Sans MS;	
+	}
+	h1{
+	color: purple;
+	font-family:comic Sans MS;	
+	}
