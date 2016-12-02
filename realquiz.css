@@ -1,0 +1,51 @@
+html{
+	background-color: red;
+    	margin-bottom: 100px;
+    	margin-right: 200px;
+    	margin-left: 200px;	
+	}
+	h1{
+	background-color:blue;
+	color: yellow;	
+	border-left: 35px solid;
+	margin-bottom:-5px;
+	}
+	a:link, a:visited{
+	color:yellow;
+	}	
+	nav{
+	background-color:blue;
+	margin-top:-3px;
+	padding-top: 10px;
+	color:white;
+	}	
+	main{
+	background-color: white;
+	}
+	main p{
+	text-decoration: underline;
+	margin-left: 50px;
+	margin-right: 50px;
+	}	
+	h2{
+	border-right: 100px green solid;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+	ol{
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+	ul{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 10px;
+	text-decoration: line-through;	
+	}
+	ol li{
+	border: dotted 2px;
+	}
+	footer{
+	background-color: blue;
+	color: white;
+	}
