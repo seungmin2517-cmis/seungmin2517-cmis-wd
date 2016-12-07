@@ -1,0 +1,35 @@
+html{
+	background-color: peachpuff;
+    	margin-bottom: 100px;
+    	margin-right: 200px;
+    	margin-left: 200px;
+	background: #777 url(http://images4.fanpop.com/image/photos/24100000/Colored-pencils-pencils-24173416-2560-1600.jpg) fixed center; 	
+	}
+	article{
+	border: 3px solid sienna;
+	margin: 5px;
+	}	
+	h1{
+	background-color: peru;
+	padding: 10px;
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	box-shadow: 0px 0px 10px black;
+	}
+	h2{
+	margin-left: 20px;
+	}
+	h3{
+	margin-left: 30px;
+	text-decoration: underline;
+	}
+	ul{
+	margin-left: 20px;
+	}
+	main p{
+	margin-left: 20px;
+	text-decoration: underline;
+	}
+	img{
+	margin-left: 20px;
+	}
