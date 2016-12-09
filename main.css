@@ -35,6 +35,22 @@ View your index.html in the production server.*/
 	/*6*/font-size: 120%;
 	/*8*/text-transform: capitalize;
 	}
+	header{
+	color:royalblue;
+	background-color: lightblue;
+	border:5px dodgerblue;
+	/*9*/border-style: double;
+	/*10*/text-decoration: underline;
+	/*11*/text-shadow: 0.05in 0.05in black;
+	/*12*/box-shadow: 10px 10px 5px #888888;
+	/*13*/background: -webkit-linear-gradient(dodgerblue, lightblue); 
+	background: -o-linear-gradient(dodgerblue, lightblue); 
+	background: -moz-linear-gradient(dodgerblue, lightblue); 
+	background: linear-gradient(dodgerblue, lightblue);
+	border: 10px solid transparent;
+        padding: 15px;
+	/*7*/text-align: center;
+	}
 	h1{
 	color:royalblue;
 	background-color: lightblue;
@@ -53,6 +69,9 @@ View your index.html in the production server.*/
         -o-border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round; 
         border-image: url(http://www.clipartkid.com/images/139/free-border-clipart-Myz1WA-clipart.gif) 30 round;
 	/*7*/text-align: center;
+	}
+	nav a{
+	color: white;
 	}
 	h2{
 	background-color: hotpink;
@@ -81,5 +100,15 @@ View your index.html in the production server.*/
         -webkit-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
         -o-border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round; 
         border-image: url(http://www.clipartkid.com/images/32/free-border-clipart-530tnM-clipart.gif) 30 round;
+	}
+	main{
+	border: solid 5px transparent;
+	}
+	footer{
+	margin-top: 40px;
+	text-align: center;
+	background-color: peru;
+	padding: 10px;
+	box-shadow: 0px 0px 10px black;	
 	}
 

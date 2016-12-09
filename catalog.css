@@ -4,15 +4,25 @@ html{
     	margin-right: 200px;
     	margin-left: 200px;
 	background: #777 url(http://images4.fanpop.com/image/photos/24100000/Colored-pencils-pencils-24173416-2560-1600.jpg) fixed center; 	
+	font-family: Trebuchet MS;	
 	}
+	nav a{
+	background-color: sienna;
+	padding: 10px;
+	color: white;
+	box-shadow: 0px 0px 10px black;
+	}	
 	article{
 	border: 3px solid sienna;
 	margin: 5px;
+	box-shadow: 0px 0px 10px black;
+	}		
+	header{
+	text-align: center;
 	}	
 	h1{
 	background-color: peru;
 	padding: 10px;
-	font-family: Trebuchet MS;
 	font-size: 40px;
 	box-shadow: 0px 0px 10px black;
 	}
@@ -22,6 +32,7 @@ html{
 	h3{
 	margin-left: 30px;
 	text-decoration: underline;
+	font-size: 25px;
 	}
 	ul{
 	margin-left: 20px;
@@ -29,7 +40,17 @@ html{
 	main p{
 	margin-left: 20px;
 	text-decoration: underline;
+	text-align: right;
+	margin-right: 30px;
 	}
 	img{
 	margin-left: 20px;
+	border: 3px solid sienna;	
+	}
+	footer{
+	margin-top: 40px;
+	text-align: center;
+	background-color: peru;
+	padding: 10px;
+	box-shadow: 0px 0px 10px black;	
 	}
