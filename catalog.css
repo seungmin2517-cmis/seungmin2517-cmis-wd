@@ -6,10 +6,10 @@ html{
 	background: #777 url(http://images4.fanpop.com/image/photos/24100000/Colored-pencils-pencils-24173416-2560-1600.jpg) fixed center; 	
 	font-family: Trebuchet MS;	
 	}
-	nav a{
+	nav a:link, a:visited{
 	background-color: sienna;
 	padding: 10px;
-	color: white;
+	color: black;
 	box-shadow: 0px 0px 10px black;
 	}	
 	article{
@@ -43,9 +43,13 @@ html{
 	text-align: right;
 	margin-right: 30px;
 	}
-	img{
+	main img{
+	display: block;
+	margin: auto;
+	}
+	article img{
 	margin-left: 20px;
-	border: 3px solid sienna;	
+	border: 3px solid sienna;
 	}
 	footer{
 	margin-top: 40px;
